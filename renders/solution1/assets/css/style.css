@@ -1,0 +1,140 @@
+
+.lineheight30{ line-height:22px; margin-top:0px}
+.cat {
+color: #fff;
+background-color: #45BCF9;
+padding: 3px 6px;
+font-size: 12px;
+display: inline-block;
+position: relative;
+top: -2px;
+margin-right: 6px;
+}.cat i {
+position: absolute;
+top: 50%;
+margin-top: -4px;
+right: -4px;
+display: inline-block;
+width: 0;
+height: 0;
+vertical-align: middle;
+border-left: 4px solid #45BCF9;
+border-top: 4px solid transparent;
+border-bottom: 4px solid transparent;
+}
+.main-left-menu a,.date_tab .nav-tabs{ border:none}
+.main-r-ico{position: absolute;
+right: 30px;
+top: -11px;}
+.main-r-ico li > a, .main-r-ico li > span{ padding:3px 8px}
+.main-r-ico .previous { margin-left:10px; float:left}
+.list-group .list_active_menu{ background:#f5f5f5; border-left:2px solid #0093dd; border-radius:0px}
+
+.table_pagination .pagination > li > a, .table_pagination .pagination > li > span{padding: 4px 10px;}
+
+
+
+
+
+.date_tab .nav > li > a{ height:36px; font-size:16px;line-height: 36px;
+padding: 0px 30px; font-weight:bold; color:#fff }.date_tab .nav  li a:link{ color:#fff}
+.date_tab .nav-tabs > li.active > a, .date_tab .nav-tabs > li.active > a:hover, .date_tab .nav-tabs > li.active > a:focus{ background:#f5f5f5; border-radius:0px; border:0px}
+
+.date_tab .nav-tabs > li.active > a,
+.date_tab .nav-tabs > li.active > a:hover,
+.date_tab .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #f5f5f5;
+  border: none;outline:none
+}
+.date_tab .nav-tabs > li > a:hover {
+  border: none; border-radius:0px; background-color: #f5f5f5; color:#555
+}
+.application_img img {
+border-radius: 8px;
+width: 100px;
+height: 100px;
+margin-right: 10px;
+}.app_det{ padding:20px}
+.app_det b{ display:block; border-left:3px solid #0b90ef; color:#333; font-size:16px; padding-left:10px}
+.app_det p{ padding-top:10px; text-indent:24px; color:#666;word-break:break-all;
+word-wrap:break-word; }
+.data_detail_title{ border-top:1px dashed #ddd; margin-top:15px}
+.data_detail_title b{ display:block; font-size:14px;color:#337ab7 }
+.data_detail_title strong{ display:block; padding-top:15px; color:#666}
+.data-qq-tab{ background:#f5f6f7; border:1px dashed #ddd; padding:10px;word-break:break-all;
+word-wrap:break-word;}
+
+.app_img .thumbnail{padding: 0px;  margin-bottom: 0px; border-radius:15px }
+.app_img { width:90px; float:left; margin:0px 13px}.app_img > .thumbnail > img, .app_img > .thumbnail a > img{ height:88px;border-radius:15px }
+
+.institutions-progress { width:757px; height: 32px; line-height: 32px; overflow: hidden; margin-bottom: 15px; margin-top:5px;  }
+.institutions-progress em { display: inline-block; width: 252px; float: left; text-align: center; color: #fff; font-size: 14px; font-style:normal }
+.institutions-progress-1 { background-image: url(../images/ico_bz.png); background-position: 0px -0px; }
+.institutions-progress-2 { background-image: url(../images/ico_bz.png); background-position: 0px -32px; }
+.institutions-progress-3 { background-image: url(../images/ico_bz.png); background-position: 0px -64px; }
+.institutions-progress-4 { background-image: url(../images/ico_bz.png); background-position: 0px -96px; }
+
+/*新增数据服务*/
+
+.nav_list  li a{ font-size:14px; padding-left:20px; padding-right:20px}
+.add_data_list dl{  clear:both}
+.add_data_list dd{ float:left; padding:8px 10px;}.add_data_list dt{ float:left; padding-top:8px;}
+.add_data_list .active a{ border:1px solid #f00; color:#f00;padding:3px 10px}
+.step_1 .alert-dismissible{ line-height:20px; padding-top:5px; padding-bottom:5px;margin-bottom: 5px;}
+
+
+.edit-face-mod .edit-face-browse {
+padding-top: 5px;
+height: 32px;
+line-height: 32px;
+background: #fff;
+}.edit-face-browse .txt {
+width: 340px;
+border-color: #7c9eba;
+background: #fff;border: 1px solid #ddd;padding: 3px;
+outline: none;color: #333;
+}.confirm-btn {
+display: inline-block;
+_display: inline;
+zoom: 1;
+padding-left: 10px;
+height: 25px;
+vertical-align: middle;
+overflow: hidden;
+}.prompt-mod .avatar-upload {
+position: absolute;
+left: 10px;
+filter: alpha(opacity=0);
+opacity: 0;
+}.edit-face-browse #avatarPic {
+width: 415px;
+cursor: pointer;
+}
+
+.file-box{ position:relative;width:340px; float:left; }
+.file{ position:absolute; top:0; right:80px; height:34px; filter:alpha(opacity:0);opacity: 0;width:260px }
+.up_btn{ width:180px;height: 34px; float:left;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;}
+.min-height{ width:500px; margin:0px auto;margin-top: 100px;}
+.min-height .modal-body { line-height:26px; min-height:140px}
+
+.table .table_blue_bg th{ vertical-align:middle}
+.add_jh{ position:absolute; width:520px}
+
+.xzgn_more a:first-child{ color:#999; cursor:default}
+.xzgn_more a:hover:first-child{ text-decoration:none}
+
